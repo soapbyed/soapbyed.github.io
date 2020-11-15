@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "AlexBrush";
+    src: url("/fonts/alexbrush-regular.woff") format('woff');
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("/fonts/opensans-regular.woff") format('woff');
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: "OpenSans"
+}
+
+h1, .navbar-brand {
+  font-family: "AlexBrush";
+  font-size: "500%";
+}
