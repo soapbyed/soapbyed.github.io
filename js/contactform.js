@@ -2,12 +2,12 @@ let name = document.querySelector("#name");
 let email = document.querySelector("#email");
 let message = document.querySelector("#message");
 let error = document.querySelector(".error");
-let btn = document.querySelector("button");
 let success = document.querySelector(".success");
 
-btn.addEventListener("click", submit);
+document.getElementById("submitbtn").addEventListener("click", submit);
 
 function submit(e) {
+
   e.preventDefault();
 
   var xhr = new XMLHttpRequest();
